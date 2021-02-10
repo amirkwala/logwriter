@@ -1,0 +1,3 @@
+s:\Binaries\Acusis.AcuSuite.LogWriterEx.dll
+S:\Utils\LogWriterEx\obj\Release\LogWriterEx.csprojResolveAssemblyReference.cache
+S:\Utils\LogWriterEx\obj\Release\Acusis.AcuSuite.LogWriterEx.dll

@@ -1,0 +1,5 @@
+s:\Binaries\Acusis.AcuSuite.LogWriterEx.dll
+s:\Binaries\Acusis.AcuSuite.LogWriterEx.pdb
+C:\Users\amir.h\Desktop\New folder\LogWriterEx\obj\Debug\LogWriterEx.csprojResolveAssemblyReference.cache
+C:\Users\amir.h\Desktop\New folder\LogWriterEx\obj\Debug\Acusis.AcuSuite.LogWriterEx.dll
+C:\Users\amir.h\Desktop\New folder\LogWriterEx\obj\Debug\Acusis.AcuSuite.LogWriterEx.pdb
