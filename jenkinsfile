@@ -6,7 +6,7 @@ pipeline {
                 echo 'Hello World'
                script{ git branch: 'master', url: 'https://github.com/amirkwala/logwriter'
                 def msbuild =  "c:/MsBuild.exe"
-                def exitStatus = bat(returnStatus: true, script: "${msbuild} logwriter.sln /p:Configuration=Debug")
+                def exitStatus = bat(returnStatus: true, script: "${msbuild} LogWriterEx.sln /p:Configuration=Debug")
                 if (exitStatus != 0){
                         currentBuild.result = 'FAILURE'
                   }
