@@ -6,7 +6,7 @@ pipeline {
                 echo 'Hello World'
                script{ git branch: 'master', url: 'https://github.com/amirkwala/logwriter'
                 def msbuild =  "c:/Program Files (x86)/MSBuild/14.0/bin/MsBuild.exe"
-                def workspace = "C:\Users\amir.h\AppData\Local\Jenkins\.jenkins\workspace"
+                def workspace = "C:/Users/amir.h/AppData/Local/Jenkins/.jenkins\workspace"
                 def exitStatus = bat(returnStatus: true, script: "${msbuild} ${workspace}/logwriter.sln /p:Configuration=Debug")
                 if (exitStatus != 0){
                         currentBuild.result = 'FAILURE'
